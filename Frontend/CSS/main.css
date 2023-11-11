@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Exo 2';
+    font-size: 16px;
+}
+body{
+    background-image: url(../images/stadium2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 60px 20px 0px;
+}
+#logo-div{
+    display: flex;
+    align-items: center; 
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+}
+#logo-div p{
+    margin: 0px -42px;
+}
+#logo{
+    width: 150px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 25px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a, #tickets{
+    text-decoration: none;
+    color: #d6d6d6;
+    font-weight: 400;
+}
+#active{
+    color: #fff;
+    font-weight: 500;
+}
