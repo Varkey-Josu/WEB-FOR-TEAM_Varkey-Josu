@@ -19,7 +19,7 @@ nav{
 #logo-div{
     display: flex;
     align-items: center; 
-    color: #fff;
+    color: #d6d6d6;
     font-weight: 600;
     font-size: 20px;
 }
@@ -46,4 +46,78 @@ nav ul li a, #tickets{
 #active{
     color: #fff;
     font-weight: 500;
+}
+#tickets div{
+    background-color: #F2DD21;
+    color: #000;
+    font-weight: 500;
+    height: 35px;
+    width: 145px;
+    padding: 7px 0px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#aanouncement{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-direction: column;
+}
+#tag{
+    background-color: #1E6DEB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 35px;
+    position: relative;
+    top: -33px;
+}
+#announcement div p{
+    color: #fff;
+    font-weight: 500;
+}
+#outer-circle{
+    border:1px solid #fff;
+    width: 16px;
+    height: 16px;
+    border-radius: 16px;
+    margin: 0px 10px;
+}
+#inner-circle{
+    background-color: #d6d6d6;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    position: relative;
+    left: -23px;
+}
+#run-text-back{
+    background-color: #474747;
+    color: #fff;
+    height: 30px;
+    display: flex;
+    white-space: nowrap;
+}
+#run-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    animation: 15s slide infinite linear;
+}
+#run-text p{
+    margin: 0px 10px;
+}
+span a{
+    text-decoration: none;
+    color: #F2DD21;
+}
+@keyframes slide {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform:translateX(-100%);
+    }
 }
