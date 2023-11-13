@@ -299,3 +299,22 @@ h1{
     font-size: 20px;
     font-weight: 700;
 }
+.content{
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+#leaderboard{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px 30px;
+    width: 600px;
+}
+#leaderboard p{
+    margin: 10px;
+}
