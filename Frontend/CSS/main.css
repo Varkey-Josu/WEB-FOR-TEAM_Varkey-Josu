@@ -223,6 +223,7 @@ span a{
     justify-content: space-between;
     flex-wrap: wrap;
     margin: 30px;
+    text-align: left;
 }
 h1{
     color: #fff;
@@ -238,4 +239,43 @@ h1{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+#card{
+    background: hsla(54, 89%, 54%, 1);
+    background: linear-gradient(144deg, hsla(54, 89%, 54%, 1) 0%, hsla(54, 100%, 83%, 1) 51%, hsla(54, 89%, 54%, 1) 100%);
+    background: -moz-linear-gradient(144deg, hsla(54, 89%, 54%, 1) 0%, hsla(54, 100%, 83%, 1) 51%, hsla(54, 89%, 54%, 1) 100%);
+    background: -webkit-linear-gradient(144deg, hsla(54, 89%, 54%, 1) 0%, hsla(54, 100%, 83%, 1) 51%, hsla(54, 89%, 54%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F2DD21", endColorstr="#FFF6A8", GradientType=1 );
+    width: 300px;
+    border-radius: 20px;
+}
+#card img{
+    height: 350px;
+}
+#card-status{
+    background-color: #fff;
+    width: 300px;
+    border-radius: 10px 10px 20px 20px;
+    text-align: center;
+    padding: 10px;
+}
+#card-status div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#name{
+    margin: 10px;
+}
+#text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 2;
+}
+#name,#high{
+    font-size: 20px;
+    font-weight: 700;
 }
