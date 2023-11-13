@@ -240,7 +240,23 @@ h1{
     justify-content: center;
     flex-wrap: wrap;
 }
-
+#card-track{
+    display: flex;
+    margin: 60px 0px;
+    white-space: nowrap;
+}
+#anime{
+    display: flex;
+    align-items: center;
+    animation: 15s slide infinite linear;
+}
+#cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px 15px;
+}
 #card{
     background: hsla(54, 89%, 54%, 1);
     background: linear-gradient(144deg, hsla(54, 89%, 54%, 1) 0%, hsla(54, 100%, 83%, 1) 51%, hsla(54, 89%, 54%, 1) 100%);
@@ -252,6 +268,8 @@ h1{
 }
 #card img{
     height: 350px;
+    position: relative;
+    left: -23px;
 }
 #card-status{
     background-color: #fff;
@@ -259,6 +277,8 @@ h1{
     border-radius: 10px 10px 20px 20px;
     text-align: center;
     padding: 10px;
+    position: relative;
+    top: -55px;
 }
 #card-status div{
     display: flex;
