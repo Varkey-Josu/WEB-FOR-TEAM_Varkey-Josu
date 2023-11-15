@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Exo 2';
+    font-size: 16px;
+}
+body{
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px 60px 20px 0px;
+}
+#logo-div{
+    display: flex;
+    align-items: center; 
+    color: #d6d6d6;
+    font-weight: 600;
+    font-size: 20px;
+}
+#logo-div p{
+    margin: 0px -42px;
+}
+#logo{
+    width: 150px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a, #tickets{
+    text-decoration: none;
+    color: #d6d6d6;
+    font-weight: 400;
+}
+#active{
+    color: #fff;
+    font-weight: 500;
+}
+#tickets div{
+    background-color: #F2DD21;
+    color: #000;
+    font-weight: 500;
+    height: 35px;
+    width: 145px;
+    padding: 7px 0px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#announcement{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+#tag{
+    background-color: #1E6DEB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 35px;
+    position: relative;
+    top: -33px;
+}
+#announcement div p{
+    color: #fff;
+    font-weight: 500;
+}
+#outer-circle{
+    border:1px solid #fff;
+    width: 16px;
+    height: 16px;
+    border-radius: 16px;
+    margin: 0px 10px;
+}
+#inner-circle{
+    background-color: #d6d6d6;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    position: relative;
+    left: -23px;
+}
+#run-text-back{
+    background-color: #474747;
+    color: #fff;
+    height: 30px;
+    display: flex;
+    white-space: nowrap;
+    overflow: hidden;
+}
+#run-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    animation: 15s slide infinite linear;
+}
+#run-text p{
+    margin: 0px 10px;
+}
+span a{
+    text-decoration: none;
+    color: #F2DD21;
+}
+@keyframes slide {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform:translateX(-100%);
+    }
+}
