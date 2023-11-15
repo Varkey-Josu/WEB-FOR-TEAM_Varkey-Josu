@@ -6,7 +6,7 @@
     font-size: 16px;
 }
 body{
-    background-image: url(../images/background.png);
+    background-image: url("images/background.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -26,7 +26,7 @@ nav{
     font-size: 20px;
 }
 #logo-div p{
-    margin: 0px -42px;
+    margin: 0px -90px;
 }
 #logo{
     width: 150px;
@@ -67,7 +67,6 @@ nav ul li a, #tickets{
     justify-content: left;
     flex-direction: column;
     flex-wrap: wrap;
-    overflow: hidden;
 }
 #tag{
     background-color: #1E6DEB;
