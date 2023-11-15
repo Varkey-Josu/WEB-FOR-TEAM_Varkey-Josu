@@ -128,84 +128,66 @@ span a{
     }
 }
 
+h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    margin: 30px;
+}
 
-#leaderboard{
-    color: #000;
-    background-color: #d6d6d6;
-    width: 600px;
-    border-radius: 15px;
-    padding: 10px;
-    margin: 50px 10px;
-}
-#leaderboard div{
+#anime{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 10px 30px;
-    border-radius: 5px;
-}
-#club-name{
-    width: 150px;
-}
-#team-info:hover{
-    background-color: hsla(54, 89%, 54%, 0.336);
-}
-#team-high{
-    background-color: #f7e43c;
-}
-hr{
-    border: 0.5px solid #c2c2c2;
-    width: 500px;
-    margin: 0px 40px;
-}
-#matches{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: row;
     flex-wrap: wrap;
 }
-#match-card{
-    background-color: #fff;
-    width: 300px;
-    padding: 20px;
-    border-radius: 10px;
-    margin: 10px;
-    text-align: center;
-}
-#match{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-#team1{
+#cards{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 10px;
+    margin: 0px 15px;
 }
-#vs{
-    font-size: 24px;
-    font-weight: 700;
+#card{
+    background: hsla(54, 89%, 54%, 1);
+    background: linear-gradient(144deg, hsla(54, 89%, 54%, 1) 0%, hsla(54, 100%, 83%, 1) 51%, hsla(54, 89%, 54%, 1) 100%);
+    background: -moz-linear-gradient(144deg, hsla(54, 89%, 54%, 1) 0%, hsla(54, 100%, 83%, 1) 51%, hsla(54, 89%, 54%, 1) 100%);
+    background: -webkit-linear-gradient(144deg, hsla(54, 89%, 54%, 1) 0%, hsla(54, 100%, 83%, 1) 51%, hsla(54, 89%, 54%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F2DD21", endColorstr="#FFF6A8", GradientType=1 );
+    width: 300px;
+    border-radius: 20px;
 }
-#time{
-    font-weight: 600;
+#card img{
+    height: 350px;
+    position: relative;
+    left: -23px;
 }
-#time1{
-    font-size: 14px;
-    margin: 0px 0px 15px 0px;
+#card-status{
+    background-color: #fff;
+    width: 300px;
+    border-radius: 10px 10px 20px 20px;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    top: -55px;
 }
-#leader-align{
+#card-status div{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    flex-wrap: wrap;
-    flex-direction: column;
 }
-h1{
-    font-size: 40px;
+#name{
+    margin: 10px;
+}
+#text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 2;
+}
+#name,#high{
+    font-size: 20px;
     font-weight: 700;
-    text-align: center;
-    color: #fff;
 }
