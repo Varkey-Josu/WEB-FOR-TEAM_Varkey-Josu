@@ -67,6 +67,7 @@ nav ul li a, #tickets{
     justify-content: left;
     flex-direction: column;
     flex-wrap: wrap;
+    overflow: hidden;
 }
 #tag{
     background-color: #1E6DEB;
@@ -500,4 +501,31 @@ hr{
 }
 #logo img{
     width: 150px;
+}
+
+#hamburger{
+    background-color: #F2DD21;
+    width: 50px;
+    height: 50px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#hamburger div{
+    background-color: #000;
+    width: 35px;
+    height: 2px;
+    margin: 3px;
+}
+@media(max-width:950px){
+    #hamburger{
+        display: none;
+    }
+    nav{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
 }
