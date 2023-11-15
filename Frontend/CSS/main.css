@@ -104,6 +104,7 @@ nav ul li a, #tickets{
     height: 30px;
     display: flex;
     white-space: nowrap;
+    overflow: hidden;
 }
 #run-text{
     display: flex;
@@ -245,6 +246,7 @@ h1{
     display: flex;
     margin: 60px 0px;
     white-space: nowrap;
+    overflow: hidden;
 }
 #anime{
     display: flex;
@@ -448,8 +450,8 @@ hr{
 #more-link p:hover{
     background-color: #f0f0f0;
 }
-#one,#two,#three,#four,#five,#six{
-    margin: 40px 0px;
+#one,#two,#three,#four,#five,#six,#seven{
+    margin: 40px 0px 0px;
 }
 
 #img-grp{
@@ -466,4 +468,37 @@ hr{
 #img-grp img:hover{
     transform: scale(1.3);
     z-index: 2;
+}
+
+#seven{
+    background-color: #F2DD21;
+    padding: 20px 0px;
+}
+#spons{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+}
+#logos{
+    overflow: hidden;
+}
+#logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px 50px;
+}
+#logo-scroll{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    white-space: nowrap;
+    padding: 40px 0px;
+    animation: 15s slide infinite linear;
+    text-align: center;
+}
+#logo img{
+    width: 150px;
 }
