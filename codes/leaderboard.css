@@ -128,61 +128,78 @@ span a{
     }
 }
 
-h1{
-    font-size: 40px;
-    font-weight: 700;
-    color: #fff;
+
+#leaderboard{
+    color: #000;
+    background-color: #d6d6d6;
+    width: 600px;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 50px 10px;
+}
+#leaderboard div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+#club-name{
+    width: 150px;
+}
+#team-info:hover{
+    background-color: hsla(54, 89%, 54%, 0.336);
+}
+#team-high{
+    background-color: #f7e43c;
+}
+hr{
+    border: 0.5px solid #c2c2c2;
+    width: 500px;
+    margin: 0px 40px;
+}
+#matches{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#match-card{
+    background-color: #fff;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
     text-align: center;
 }
-
-
-#news{
+#match{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#team1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+}
+#vs{
+    font-size: 24px;
+    font-weight: 700;
+}
+#time{
+    font-weight: 600;
+}
+#time1{
+    font-size: 14px;
+    margin: 0px 0px 15px 0px;
+}
+#leader-align{
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding: 40px 0px;
-}
-#news-card{
-    background-color: #ffd;
-    width: 250px;
-    border-radius: 5px;
-    margin: 15px;
-}
-#news-card img{
-    width: 250px;
-    height: 160px;
-    border-radius: 5px 5px 0px 0px;
-}
-#news-card div{
-    padding: 10px;
-}
-#news-head{
-    font-size: 18px;
-    font-weight: 600;
-    margin: 0px 0px 10px 0px;
-}
-#view-article{
-    text-decoration: none;
-}
-#view-article p{
-    background-color: #1E6DEB;
-    text-align: center;
-    padding: 10px;
-    border-radius: 5px;
-    color: #fff;
-}
-#desc{
-    color: #474747;
-    margin: 10px 0px;
-    font-size: 14px;
-}
-#post-date{
-    font-size: 15px;
-    background-color: #F2DD21;
-    text-align: center;
-    width: 130px;
-    padding: 5px 0px;
-    margin: 0px -2px 5px;
-    border-radius: 10px;
+    flex-direction: column;
 }

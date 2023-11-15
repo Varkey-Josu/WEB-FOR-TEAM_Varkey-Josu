@@ -67,6 +67,7 @@ nav ul li a, #tickets{
     justify-content: left;
     flex-direction: column;
     flex-wrap: wrap;
+    overflow: hidden;
 }
 #tag{
     background-color: #1E6DEB;
