@@ -16,7 +16,6 @@ nav{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    position: sticky;
     margin: 20px 60px 20px 0px;
 }
 #logo-div{
@@ -27,7 +26,7 @@ nav{
     font-size: 20px;
 }
 #logo-div p{
-    margin: 0px -42px;
+    margin: 0px -90px;
 }
 #logo{
     width: 150px;
