@@ -137,7 +137,8 @@ span a{
     text-align: center;
 }
 #one img{
-    height: 450px;
+    /*height: 450px;*/
+    width: 50%;
 }
 #head-link{
     display: flex;
