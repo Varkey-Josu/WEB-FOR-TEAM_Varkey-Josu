@@ -450,8 +450,10 @@ hr{
 #more-link p:hover{
     background-color: #f0f0f0;
 }
-#one,#two,#three,#four,#five,#six,#seven{
-    margin: 40px 0px 0px;
+#one,#two,#three,#four,#five,#six{
+    padding: 40px 0px 0px;
+    background-image: url("./images/background.png");
+    background-size: cover;
 }
 
 #img-grp{
