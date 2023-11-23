@@ -18,9 +18,9 @@ body img{
     width: 60%;
 }
 #heading{
-    font-size: 56px;
+    font-size: 3em;
     font-weight: 700;
-    margin: 20px;
+    margin: 30px;
     text-align: center;
     
 }
@@ -31,7 +31,8 @@ body img{
     border-radius: 10px;
 }
 #content{
-    padding: 30px 80px;
+    /*padding: 30px 80px;*/
+    padding: 3% 8%;
     font-size: 20px;
     line-height: 2;
     color: #adadad;
