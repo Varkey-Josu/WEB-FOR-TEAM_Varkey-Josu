@@ -196,7 +196,8 @@ span a{
     line-height: 2;
 }
 .heading{
-    font-size: 128px;
+    /*font-size: 128px;*/
+    font-size: 6rem;
     font-weight: 800;
     color: #fff;
     opacity: 30%;
@@ -207,7 +208,8 @@ span a{
     margin: 10px;
 }
 .headings{
-    font-size: 128px;
+    /*font-size: 128px;*/
+    font-size: 6rem;
     font-weight: 800;
     color: #fff;
 }
