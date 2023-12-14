@@ -5,9 +5,3 @@
   🌐 <a href="https://varkey-josu.github.io/WEB-FOR-TEAM_Varkey-Josu/index.html">Live Website</a>
 </p>
 </div>
-<style>
-div{
-background-color:white;
-color:black;
-}
-</style>
