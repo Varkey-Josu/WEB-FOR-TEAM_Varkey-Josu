@@ -3,5 +3,5 @@
 <p>
 
 <p>🌐 <b>Live Website</b></p>
-<a href="https://varkey-josu.github.io/WEB-FOR-TEAM_Varkey-Josu/index.html">Live Website</a>
+<a href="https://varkey-josu.github.io/WEB-FOR-TEAM_Varkey-Josu/index.html">Click Here</a>
 </p>
